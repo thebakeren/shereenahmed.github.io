@@ -1,6 +1,6 @@
  body {
- 	
- 	background-image: url("http://static1.squarespace.com/static/5266b504e4b0547c6f2862be/t/54ee0009e4b0d577cb6e9838/1424883725336/Fine+Art+Film+Photographer+-+Baking+-+Linzer+Cookies");
+  
+  background-image: url("http://static1.squarespace.com/static/5266b504e4b0547c6f2862be/t/54ee0009e4b0d577cb6e9838/1424883725336/Fine+Art+Film+Photographer+-+Baking+-+Linzer+Cookies");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: 89em;
@@ -9,46 +9,46 @@
 
 .header {
 
-	font-size: 1.5em;
-	color: #ff3300;
-	font-family: Helvetica; 
-	text-align: left;
-	padding: 1em;
-	padding-top: 1em;
-	padding-right: 2em;
-	margin-top: -1.3em;
-	opacity: .5;
+  font-size: 1.5em;
+  color: #ff3300;
+  font-family: Helvetica; 
+  text-align: left;
+  padding: 1em;
+  padding-top: 1em;
+  padding-right: 2em;
+  margin-top: -1.3em;
+  opacity: .5;
 
 }
 
 #info {
-	font-size: 1.2em;
-	color: #4d004d;
-	font-family: Helvetica;
-	text-indent: 1.5em;
-	margin-right: 6em;
-	margin-top:  -1.7em;
-	padding-left: 1em;
-	line-height: 1.4;
+  font-size: 1.2em;
+  color: #4d004d;
+  font-family: Helvetica;
+  text-indent: 1.5em;
+  margin-right: 6em;
+  margin-top:  -1.7em;
+  padding-left: 1em;
+  line-height: 1.4;
 
 }
 
 span {
-	font-size: 1.2em;
-	color: ;
-	
+  font-size: 1.2em;
+  color: ;
+  
 }
 
 img {
-	width: 26em;
-	height: 20em;
-	margin-left: 5em;
+  width: 26em;
+  height: 20em;
+  margin-left: 5em;
 
 
 }
 
-.blueberry{
-	padding: 0;
+.blueberry {
+  padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -56,16 +56,16 @@ img {
    }
 
 .header2{
-	display: inline-block;
- 	background-color: #ffffff;
- 	border: 1em;
- 	border-radius:4%;
- 	width: 90%;
- 	border-color: #ffccff;
- 	opacity: 0.8;
- 	margin-top: 2em;
- 	margin-left: 3em;
- 	box-shadow: 0.5em 0.5em #ffb3b3; 
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1em;
+  border-radius:4%;
+  width: 90%;
+  border-color: #ffccff;
+  opacity: 0.8;
+  margin-top: 2em;
+  margin-left: 3em;
+  box-shadow: 0.5em 0.5em #ffb3b3; 
 
 
  }
@@ -74,7 +74,7 @@ img {
     float: left;
     font-size: 2.2em;
     font-variant: small-caps;
-    color: #ff1a1a;
+    color:  #ff1a1a;
     margin-left: 2em;
 
  }
@@ -91,112 +91,149 @@ img {
  }
 
  .header2 > a:hover{
- 	text-decoration: none;
- 	font-weight: bolder;
- 	font-size: 1em;
- 	color: #b30077;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #b30077;
  }
 
  .prep_info{
- 	display:block;
- 	border-radius: 3em;
- 	background-color: #ffffff;
- 	opacity: 0.8;
- 	margin-left: 4em;
- 	margin-top: 2em;
- 	margin-bottom: -0.6em;
- 	text-align: center;
- 	width: 25%;
- 	padding: 0.5em;
+  display:block;
+  border-radius: 3em;
+  background-color: #ffffff;
+  opacity: 0.8;
+  margin-left: 4em;
+  margin-top: 2em;
+  margin-bottom: -0.6em;
+  text-align: center;
+  width: 25%;
+  padding: 0.4em;
 
  }
  
- #time, #portion {
+ #time, .portion{
     font-family: Helvetica;
- 	font-size: 1em;
- 	font-weight: bolder;
- 	color: #0066ff;
+  font-size: 1em;
+  font-weight: bold;
+  color: #009966;
  }
 
  .ingredients{
- 	float: left;
- 	text-align: left;
- 	border-radius: 3em;
- 	opacity: 0.7;
- 	background-color: #ffffff;
- 	border: 1em;
- 	margin-left: 2em;
- 	margin-top: 1em;
- 	height: 45em;
- 	width: 30%;
+  float: left;
+  text-align: left;
+  border-radius: 3em;
+  opacity: 0.7;
+  background-color: #ffffff;
+  border: 1em;
+  margin-left: 2em;
+  margin-top: 1em;
+  height: 32em;
+  width: 30%;
  }
 
  .ingredients > h2 {
- 	text-align: center;
- 	color: #ff1a66;
- 	font-weight: bolder;
- 	font-size:1.5em;
+  text-align: center;
+  color:  #ff1a1a;
+  font-weight: bolder;
+  font-size:1.5em;
 
  }
 
- .ingredients > h3 {
- 	margin-left: 1.2em;
- 	padding-right: 1em;	
- 	color: #009966;	
+ /*.ingredients > h3 {
+  margin-left: 1.2em;
+  padding-right: 1em; 
+  color: #009966; 
     font-variant: small-caps;
     font-weight: bolder;
     font-size: 1.5em;
     text-decoration: underline;
- }
+ }*/
 
  .ingredients > ul > li{
- 	margin-right: 4em;
- 	margin-left: 1.5em;
- 	margin-top: 1.5em;
- 	font-family: Arial;
- 	font-weight: bold;
- 	font-size: 0.9em;
- 	color: #a64dff;
+  margin-right: 4em;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #80002a;
 
  }
 
 
 .baking{
-	float: right;
- 	text-align: left;
- 	border-radius: 3em;
- 	opacity: 0.7;
- 	background-color: #ffffff;
- 	border: 1em;
- 	margin-right: 10em;
- 	margin-top: 1em;
- 	height: 65em;
- 	width: 50%;
+  float: right;
+  text-align: left;
+  border-radius: 3em;
+  opacity: 0.7;
+  background-color: #ffffff;
+  border: 1em;
+  margin-right: 10em;
+  margin-top: 1em;
+  height: 58em;
+  width: 50%;
 
 }
 
 .baking > h2 {
-	text-align: center;
- 	color:  #ff1a66;
- 	font-weight: bolder;
- 	font-size:1.5em;	
+  text-align: center;
+  color: #ff1a1a;
+  font-weight: bolder;
+  font-size:1.5em;  
 }
 
 .baking > h3 {
-	margin-left: 1.2em;
- 	padding-right: 1em;	
- 	color: #009966;	
+  margin-left: 1.2em;
+  padding-right: 1em; 
+  color: #009966; 
     font-variant: small-caps;
     font-weight: bolder;
     font-size: 1.5em;
     text-decoration: underline;
 }
 .baking > ul > li {
-	margin-right: 4em;
- 	margin-left: 1.5em;
- 	margin-top: 1.5em;
- 	font-family: Arial;
- 	font-weight: bold;
- 	font-size: 0.9em;
- 	color: #a64dff;
+  margin-right: 4em;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #80002a;
 }
+
+.footer {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1em;
+  border-radius:4%;
+  width: 90%;
+  border-color: #ffccff;
+  opacity: 0.8;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 3em;
+  box-shadow: 0.5em 0.5em #ffb3b3; 
+  clear: both;
+}
+
+ #credit {
+    float: left;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: #ff1a1a;
+    margin-left: 2em;
+}
+
+#credit2 {
+    float: right;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: #ff1a1a;
+    margin-right: 2em;
+}
+.footer > a{
+  text-decoration: none;
+
+}
+
+
